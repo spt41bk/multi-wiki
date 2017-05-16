@@ -1,5 +1,8 @@
 # multi-wiki
 
+This corpus contains parallel aligned sentences extracted from Wikipedia in languages: Indonesian, Malay, Filipino, Vietnamese, English.
+
+
 # Building corpora
 
     1. Extracting parallel titles
@@ -17,12 +20,6 @@
         
     5. Truecase, clean
         
-
-
-# Wikipedia-Multilingual-Parallel-Corpus
-
-
-This corpus contains parallel aligned sentences extracted from Wikipedia in languages: Indonesian, Malay, Filipino, Vietnamese, English.
 
 # Bilingual Parallel Corpus
 Language 1 | Language 2 |  Sentences
