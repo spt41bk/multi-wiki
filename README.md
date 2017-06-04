@@ -1,3 +1,8 @@
+The corpus is introduced in this paper:
+
+"Multi-Wiki: A Multilingual Parallel Corpus for Southeast AsianLanguages"
+
+
 # multi-wiki
 
 This corpus contains parallel aligned sentences extracted from Wikipedia in languages: Indonesian, Malay, Filipino, Vietnamese, English.
@@ -45,10 +50,6 @@ Malay | 596,097
 Filipino | 682,939
 Vietnamese | 1,862,599
 
-# Citation
-The corpus is introduced in this paper:
-
-"Multi-Wiki: A Multilingual Parallel Corpus for Southeast AsianLanguages"
 
 
 # References
