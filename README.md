@@ -11,17 +11,24 @@ This corpus contains parallel aligned sentences extracted from Wikipedia in lang
 # Building corpora
 
     1. Extracting parallel titles
-          Follow the procedures
-          https://github.com/clab/wikipedia-parallel-titles
+    For example: building the English-Indonesian corpus
+          
+          wget http://dumps.wikimedia.org/enwiki/20170120/enwiki-20170120-page.sql.gz
+          wget http://dumps.wikimedia.org/enwiki/20170120/enwiki-20170120-langlinks.sql.gz
+          
+          wget http://dumps.wikimedia.org/idwiki/20170120/idwiki-20170120-page.sql.gz
+          wget http://dumps.wikimedia.org/idwiki/20170120/idwiki-20170120-langlinks.sql.gz
+          
+          
+          ./build-corpus.sh en idwiki-20170120 > en-id-titles.txt
           
     2. Crawl articles using the title pairs
     
     3. Preprocessing: split sentences, word tokenization
     
-    4. Sentence alignment: using Microsoft Sentence Aligner [Moore, 2002]
-    
-        https://www.microsoft.com/en-us/download/details.aspx?id=52608&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2Faafd5dcf-4dcc-49b2-8a22-f7055113e656%2F
+    4. Sentence alignment 
         
+      
         
     5. Truecase, clean
         
