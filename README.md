@@ -1,6 +1,6 @@
 The corpus is introduced in this paper:
 
-"Multi-Wiki: A Multilingual Parallel Corpus for Southeast AsianLanguages"
+"A Multilingual Parallel Corpus for Improving Machine Translation on Southeast Asian Languages"
 
 
 # multi-wiki
